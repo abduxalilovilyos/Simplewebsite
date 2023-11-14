@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Itim', cursive;
+    font-family: cursive;
 }
 .home , .about , .articles , .readarticles
 {
@@ -232,20 +232,25 @@
 .content
 {
     margin: 72px 52px;
-    height: 600px;
+    /* height: 600px; */
     background-color: #D9D9D9;
     padding: 63px 33px;
     border-radius: 65px;
-    overflow: auto;
 }
-.content::-webkit-scrollbar
+.title__text
+{
+    overflow: auto;
+    height: 250px;
+    padding: 15px;
+}
+.title__text::-webkit-scrollbar
 {
     background-color: transparent;
 }
-.content::-webkit-scrollbar-thumb
+.title__text::-webkit-scrollbar-thumb
 {
-    width: 27px;
-    height: 75px;
+    width: 17px;
+    /* height: 75px; */
     border-radius: 20px;
     background-color: #FFF; 
     padding: 0 10px 0 0;  
